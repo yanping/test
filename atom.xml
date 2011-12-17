@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://yanping.github.com/test/atom.xml" rel="self"/>
+  <link href="http://yanping.github.com/test/"/>
+  <updated>2011-12-17T17:15:33+08:00</updated>
+  <id>http://yanping.github.com/test/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[test]]></title>
+    <link href="http://yanping.github.com/test/blog/2011/12/17/test/"/>
+    <updated>2011-12-17T17:12:00+08:00</updated>
+    <id>http://yanping.github.com/test/blog/2011/12/17/test</id>
+    <content type="html"><![CDATA[
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;!DOCTYPE html>
+</span><span class='line'>&lt;html>
+</span><span class='line'>&lt;head>
+</span><span class='line'>  &lt;meta charset=utf-8 />
+</span><span class='line'>  &lt;title> {% if page.title %} {{ page.title }} | {% endif %} John Doe, Photographer &lt;/title>
+</span><span class='line'>  &lt;link rel="stylesheet" href="http://yanping.github.com/test/css/styles.css" />
+</span><span class='line'>&lt;/head>
+</span><span class='line'>&lt;body>
+</span><span class='line'> 
+</span><span class='line'>  &lt;div id="main">
+</span><span class='line'> 
+</span><span class='line'>    &lt;header>
+</span><span class='line'>      &lt;h1> John Doe Photograghy &lt;/h1>
+</span><span class='line'>    &lt;header>
+</span><span class='line'> 
+</span><span class='line'>    &lt;nav role="navigation">
+</span><span class='line'>      &lt;ul>
+</span><span class='line'>        &lt;li>&lt;a href="http://yanping.github.com/test/">Home&lt;/a>&lt;/li>
+</span><span class='line'>        &lt;li>&lt;a href="http://yanping.github.com/test/portfolio/">Portfolio&lt;/a>&lt;/li>
+</span><span class='line'>        &lt;li>&lt;a href="http://yanping.github.com/test/about">About&lt;/a>&lt;/li>
+</span><span class='line'>        &lt;li>&lt;a href="http://yanping.github.com/test/contact">Contact&lt;/a>&lt;/li>
+</span><span class='line'>      &lt;/ul>
+</span><span class='line'>    &lt;/nav>
+</span><span class='line'> 
+</span><span class='line'>    {{ content }}
+</span><span class='line'> 
+</span><span class='line'>    &lt;footer>
+</span><span class='line'>      &lt;p>@copy; John Doe Photography 2011 | All Rights Reserved. &lt;/p>
+</span><span class='line'>    &lt;/footer>
+</span><span class='line'> 
+</span><span class='line'>  &lt;/div>
+</span><span class='line'>&lt;/body>
+</span><span class='line'>&lt;/html></span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
+  
+</feed>
